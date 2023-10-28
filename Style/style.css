@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.first-btn{ 
+    height: 64px;
+    padding: 0 35px 0 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.second-btn{
+    height: 64px;
+    padding: 0 35px 0 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    margin-left: 20px;
+    background: transparent;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+.header-nav{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+/* banner section */
+.Banner-Section{
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 200px;
+}
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-paragraph{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0px 30px 0px;
+    font-weight: 400;
+    line-height: 30px;  
+}
+.icon{
+    padding-right: 10px;
+}
+/* about section style */
+.about-me{
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.common-heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+    font-family: Open Sans;
+    color: var(--Dark-01, #181818);
+}
+.aboutMe-description{
+    color: #757575;
+    padding:30px 100px 30px 100px;
+}
+.about-info{
+    display: flex;
+    padding: 10px 100px 50px 100px;
+    justify-content:space-between;
+
+}    
+.about-description{
+    text-align: center;
+}
+.aboutI-do{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 340px 20px 340px;
+}
+.abouti-doo{
+    width: 200px;
+    height: 300px;
+    padding: 30px 20px 20px 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 24px;
+}
+.ido-info {
+    padding: 20px 30px 10px 3px;
+}
+.i-do {
+    display: flex; 
+    align-items: center;
+    margin: 50px 230px 50px 230px;
+}
+.icon-image{
+    margin-bottom: 30px;
+}
+.Summery{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+.Summery-info{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+    padding: 20px 20px 0px 20px;
+}
+.S-subhead{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 20px 10px 20px;
+}
+.S-parahead{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0px 20px 10px 20px;
+}
+.S-para{
+    color: var(--Dark-03, #757575);
+     font-family: Open Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px; 
+     width: 511px;
+     padding: 0px 20px 30px 20px;
+}
+.button {
+    text-align: center;
+}
+.end {
+    display: flex;
+    margin: 150px; 
+    justify-content: space-between;
+    background: #FFF8F3;
+    width: auto;
+    height: auto;
+    padding: 150px;
+}
+h2 {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 20px 0px 20px;
+}
+input{
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: none;
+    margin: 20px 20px 0px 20px;
+}
+textarea {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: none;
+    margin: 20px 20px 0px 20px;
+}
+.S-paragraph{
+    color: var(--Dark-03, #757575);
+     font-family: Open Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px; 
+     width: 511px;
+     padding: 15px 20px 30px 20px;
+}
+.pic{
+    margin-left: 30px;
+}
+.last-btn{
+    height: 64px;
+    padding: 0 35px 0 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 20px 0px 0px 25px;
+}
+::placeholder{
+    padding: 10px;
+}
