@@ -112,20 +112,19 @@ nav li{
     margin: 20px 340px 20px 340px;
 }
 .abouti-doo{
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 260px;
     padding: 30px 20px 20px 20px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    gap: 24px;
+    margin: 10px;
 }
 .ido-info {
-    padding: 20px 30px 10px 3px;
+    padding: 15px 0px 0px 3px; 
 }
 .i-do {
     display: flex; 
-    align-items: center;
     margin: 50px 230px 50px 230px;
 }
 .icon-image{
@@ -134,7 +133,7 @@ nav li{
 .Summery{
     display: flex;
     justify-content: space-between;
-    margin: 100px;
+    margin: 100px
 }
 .Summery-info{
     color: var(--Dark-02, #474747);
@@ -184,14 +183,7 @@ nav li{
     width: auto;
     height: auto;
     padding: 150px;
-}
-h2 {
-    color: var(--Dark-01, #181818);
-    font-family: Open Sans;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    padding: 20px 20px 0px 20px;
+    border-radius: 10px;
 }
 input{
     width: 280px;
@@ -208,6 +200,7 @@ textarea {
     background: var(--White-Color, #FFF);
     border: none;
     margin: 20px 20px 0px 20px;
+    resize: none;
 }
 .S-paragraph{
     color: var(--Dark-03, #757575);
@@ -217,10 +210,10 @@ textarea {
      font-weight: 400;
      line-height: 28px; 
      width: 511px;
-     padding: 15px 20px 30px 20px;
+     padding: 15px 20px 20px 0px;
 }
 .pic{
-    margin-left: 30px;
+    margin-left: 15px;
 }
 .last-btn{
     height: 64px;
